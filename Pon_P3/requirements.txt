@@ -1,0 +1,4 @@
+openpyxl
+django
+numpy
+pandas
