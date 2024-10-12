@@ -1,0 +1,170 @@
+{% extends "base_generic.html" %}
+{% block title %} About {% endblock %}
+{% load static %}
+{% block content %}
+    <div class="page-header">
+        <h1>About<small></small></h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>Citing PON-P3</h2>
+            <ol>
+                <li><p>PON-P3 was developed by Muhammad Kabir and Mauno Vihinen. Manuscript describing the
+                    method has been submitted. <span class="label label-success">Waiting...</span></p>
+                </li>
+                <li><p>Citation for the original PON-P and PON-P2 predictors are: </p>
+                    <p>
+                    <ul>
+                        <li>Olatubosun A, Väliaho J, Härkönen J, Thusberg J, Vihinen M. PON-P: integrated predictor for
+                            pathogenicity of missense variants.
+                            Hum Mutat. 2012 Aug;33(8):1166-74. doi: 10.1002/humu.22102. Epub 2012 May 7. PMID: 22505138.
+                        </li>
+                        <br>
+                        <li>Niroula A, Urolagin S, Vihinen M (2015) PON-P2: Prediction Method for Fast and Reliable
+                            Identification of Harmful Variants. PLoS ONE 10(2): e0117380.
+                            https://doi.org/10.1371/journal.pone.0117380.
+                        </li>
+                    </ul>
+                    </p>
+                </li>
+            </ol>
+            <h2 id="input_example">Start prediction</h2>
+            <p>
+                To start using PON-P3, there are two possible input methods: one via a text box and the other by
+                uploading a file.
+                The platform offers three interfaces for processing data:
+            </p>
+            <ol>
+                <li><strong>Protein Prediction</strong></li>
+                <li><strong>Transcript Variation</strong></li>
+                <li><strong>Genomic Variation</strong></li>
+            </ol>
+            <p>
+                Each of these interfaces requires inputs to be in a specific format, which is provided alongside every
+                input field for guidance.
+                After processing, you will need to enter your email address to receive the results.
+                The results will be sent to you in both CSV and PDF formats.
+            </p>
+
+
+            <h3>Input Protein Sequence</h3>
+            <p>
+                You can input data via the text box by first entering <code>refseq_ids</code> followed by a ">" symbol.
+                After that, you can enter multiple <code>variation_ids</code> on new lines. For uploading a file, the
+                file must contain
+                two columns with header names as <code>refseq_ids</code> and <code>variation_ids</code>. Please refer to
+                the format example below:
+            </p>
+
+            <h4>Example</h4>
+            <ol start="">
+                </code></pre>
+                <li>Protein Sequence Variation</li>
+                <pre><code>>NP_000005.3
+M1A
+M2A
+>NP_000005.3
+M1A
+M2A
+</code></pre>
+
+            </ol>
+            <h3>Input Transcript Variation</h3>
+            <p>
+    To start predicting transcript variations, you have two options:
+    <ul>
+        <li>Via input (text field): You can click on the example to see the format: <code>NM_000016.6:c.613G&gt;C</code>. It must start with "NM", and there should be a ">" before the character, followed by only one character.</li>
+        <li>Via file upload: The file must contain only one column without a header.</li>
+    </ul>
+</p>
+
+            
+            <h4>Example</h4>
+            <ol start="">
+                <li> Input Transcript Variation</li>
+                <pre><code>NM_000016.6:c.613G>C
+NM_000016.6:c.653C>G
+NM_000017.4:c.319C>T
+
+</code></pre>
+
+            </ol>
+            <p>After entering email you will receive email of text file in the format of csv and pdf file
+                </p>
+            <h3>Input Genomic Variation</h3>
+<p>
+    To start predicting genomic variations, you have two options:
+    <ul>
+        <li>Via input (text field): You can click on the example to see the format: <code>chr1:g.75745819G&gt;C</code>. It must start with "chr", and there should be a ">" before the character, followed by only one character.</li>
+        <li>Via file upload: The file must contain only one column without a header.</li>
+    </ul>
+</p>
+
+<h4>Example</h4>
+<ol start="">
+    <li>Input Genomic Variation</li>
+    <pre><code>chr1:g.75745819G>C
+chr2:g.47789620T>A
+chr3:g.12156789A>G
+</code></pre>
+</ol>
+
+<p>
+    After entering your email, you will receive a text file in CSV format and a PDF file via email.
+</p>
+
+            <h2 id="dataset">Data sets</h2>
+            <p>Extensive data mining was performed for obtaining cases for training and testing.
+                Training dataset was used in PON-P3. You can download training data from here.
+                <a class="btn btn-primary btn-xs text-capitalize" href="{% static 'dataset/ponp3_traning_data.csv' %}">
+                    <span class="glyphicon glyphicon-download-alt"></span>&nbsp;download</a>
+
+            <figure>
+                <table class="table">
+                    <thead>
+                    <tr class="text-capitalize">
+                        <th> Dataset</th>
+                        <th> variations</th>
+                        <th> Pathogenic</th>
+                        <th> Benign</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td> Training dataset</td>
+                        <td> 11567</td>
+                        <td> 11478</td>
+                        <td> 23045</td>
+                    </tr>
+                    <tr>
+                        <td> Blind Test dataset</td>
+                        <td> 2581</td>
+                        <td> 1246</td>
+                        <td> 1335</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </figure>
+            </p>
+            <p>
+                Blind Test data set was originally used to test PON-P3. It can be download from here.
+                <a class="btn btn-primary btn-xs text-capitalize" href="{% static "dataset/ponp3_testing_data.csv" %}">
+                    <span class="glyphicon glyphicon-download-alt"></span>&nbsp;download</a>
+            </p>
+            <p>
+                <b style="color: red">PON-P3 excluded a list of 400 Protein ID for which we are not providing results.
+                    List of these excluded ids with reason is here.</b>
+                <a class="btn btn-primary btn-xs text-capitalize"
+                   href="{% static "dataset/ids_excluded_from_MANE.csv" %}">
+                    <span class="glyphicon glyphicon-download-alt"></span>&nbsp;download</a>
+            </p>
+
+            <h2>Contact</h2>
+            <p>If you have any problems, please contact Muhammad Kabir
+                (<a href='mailto:muhammad.kabir@med.lu.se' target='_blank' class='url'>muhammad.kabir@med.lu.se</a>)
+                or Prof. Mauno Vihinen (<a href='mailto:mauno.vihinen@med.lu.se' target='_blank' class='url'>mauno.vihinen@med.lu.se</a>).
+            </p>
+
+        </div>
+    </div>
+{% endblock %}

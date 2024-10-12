@@ -1,0 +1,5 @@
+openpyxl
+django
+numpy
+pandas
+reportlab

@@ -1,0 +1,79 @@
+{% extends "base_generic.html" %}
+{% block content %}
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1 class="">Wecome to <strong>PON-P3</strong></h1>
+        <p class="lead text-justify" style="margin-bottom: 0px">
+            Genetic variations are investigated in human for many purposes (e.g., to aid in clinical diagnosis).
+            Interpretation of the identified variations can be challenging.
+            PON-P3 predicts the tolerance (pathogenicity) of amino acid substitutions in human (MANE specific).
+            It is a machine learning-based approach and utilizes various features inlcuding amino acid features, Gene Ontology (GO) annotations, evolutionary conservation, and others.
+            PON-P3 estimates the reliability of predictions and groups the variants into pathogenic, neutral and unknown classes.
+            The method is based on a gradient boosting algorithm and it has been trained on a large data set. The method is fast and has high performance.
+            Performance of PON-P3 has been extensively tested and compared with the state-of-the-art methods.
+        </p>
+
+        <p class="text-justify">
+            PON-P3 was developed in the groups of Prof. Mauno Vihinen,
+            Protein Structure and Bioinformatics Research group, BMC, Lund University Sweden.
+        </p>
+        <p><a class="btn btn-lg " href="" role="button" style="background-color: darkorange!important; color: white">Get started</a></p>
+    </div>
+
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <h2>Input formats</h2>
+            <p>
+                There are two input formats. Protein Variations and DNA Variations.
+            </p>
+            <p><a class="btn btn-danger" href="{% url "about" %}#input_example" role="button">View details
+                »</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <h2>Data sets</h2>
+            <p>
+                23045 variants were used for method training and 2581 variants were used for blind test.
+                The data sets are freely available.
+            </p>
+            <p><a class="btn btn-danger" href="{% url "about" %}#dataset" role="button">View details »</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <h2>Prediction results</h2>
+            <p>
+                Result are sent to the provided email during the input submission.
+            </p>
+            <p><a class="btn btn-danger" href="" role="button">View
+                details »</a></p>
+        </div>
+    </div>
+    <div class="row text-justify" style=" padding: 30px">
+        <h1 class="text-justify text-capitalize">How to cite?</h1>
+        <p>
+            PON-P3 manuscript has been submitted. In the meantime if using the service cite the URL.
+            <br>
+            {#        <a class="btn btn-success btn-xs" href="#" target="_blank"> Go to Bioinformatics </a>#}
+        </p>
+        <p class="text-justify">
+            {#            PON-P (2015), the old version based on Random Forests, has been published Bioinformatics.#}
+            {#            <br>#}
+            The original PON-P and PON-P2 were published in
+            <br>
+            <ul>
+            <li>Olatubosun A, Väliaho J, Härkönen J, Thusberg J, Vihinen M. PON-P: integrated predictor for pathogenicity of missense variants.
+            Hum Mutat. 2012 Aug;33(8):1166-74. doi: 10.1002/humu.22102. Epub 2012 May 7. PMID: 22505138.</li>
+            <br>
+            <li>Niroula A, Urolagin S, Vihinen M (2015) PON-P2: Prediction Method for Fast and Reliable Identification of Harmful Variants. PLoS ONE 10(2): e0117380.
+            https://doi.org/10.1371/journal.pone.0117380.</li>
+            {#            <br>#}
+        </ul>
+        </p>
+        {#        <div class="col-lg-6">#}
+        {#            <h2 class="text-center text-capitalize">How to cite?</h2>#}
+        {#        </div>#}
+        {#        <div class="col-lg-6">#}
+        {#            <h2 class="text-center text-capitalize">Dataset</h2>#}
+        {#        </div>#}
+    </div>
+{% endblock %}
+

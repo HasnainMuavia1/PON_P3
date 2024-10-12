@@ -1,0 +1,400 @@
+MANE_ID,Length,Reason
+NP_001157979.2,8525,AF3 cannot find structures for  > 5k
+NP_001361665.1,7818,AF3 cannot find structures for  > 5k
+NP_001139669.1,7081,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_001380991.1,7555,AF3 cannot find structures for  > 5k
+NP_115495.3,6306,AF3 cannot find structures for  > 5k
+NP_596870.2,5604,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_000531.2,5038,AF3 cannot find structures for  > 5k
+NP_114141.2,5635,AF3 cannot find structures for  > 5k
+NP_689914.3,5058,AF3 cannot find structures for  > 5k
+NP_612429.2,5795,AF3 cannot find structures for  > 5k
+NP_892006.3,8797,AF3 cannot find structures for  > 5k
+NP_001388430.1,15349,AF3 cannot find structures for  > 5k
+NP_149015.2,5142,AF3 cannot find structures for  > 5k
+NP_003473.3,5537,AF3 cannot find structures for  > 5k
+NP_001611.1,5890,AF3 cannot find structures for  > 5k
+NP_001278744.1,5079,AF3 cannot find structures for  > 5k
+NP_055426.1,5596,AF3 cannot find structures for  > 5k
+NP_001291288.1,5654,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_001254479.2,35991,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_001257903.1,5121,AF3 cannot find structures for  > 5k
+NP_996816.3,5202,AF3 cannot find structures for  > 5k
+NP_115642.4,5388,AF3 cannot find structures for  > 5k
+NP_001157934.1,5335,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_002448.5,5130,AF3 cannot find structures for  > 5k
+NP_112598.3,5088,AF3 cannot find structures for  > 5k
+NP_001384140.1,5645,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_001158058.1,3708,AF3 Failed many times - PSSM not calculated - less than 4 clusters
+NP_002449.2,5762,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_001157980.2,8525,AF3 cannot find structures for  > 5k
+NP_065816.2,5183,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_001243000.2,5207,AF3 cannot find structures for  > 5k
+NP_060876.5,5412,AF3 cannot find structures for  > 5k and PSSM not calculated - less than 4 clusters
+NP_775922.3,6907,AF3 cannot find structures for  > 5k
+NP_001371054.1,5093,AF3 cannot find structures for  > 5k
+NP_003881.2,5405,AF3 cannot find structures for  > 5k
+NP_878918.2,6907,AF3 cannot find structures for  > 5k
+NP_001373054.1,8925,AF3 cannot find structures for  > 5k
+NP_006112.3,644,Fibrous proteins - Keratin
+NP_000414.2,639,Fibrous proteins - Keratin
+NP_476429.2,628,Fibrous proteins - Keratin
+NP_002263.3,520,Fibrous proteins - Keratin
+NP_000415.2,590,Fibrous proteins - Keratin
+NP_005545.1,564,Fibrous proteins - Keratin
+NP_005546.2,564,Fibrous proteins - Keratin
+NP_005547.3,469,Fibrous proteins - Keratin
+NP_002264.1,483,Fibrous proteins - Keratin
+NP_000217.2,623,Fibrous proteins - Keratin
+NP_000412.4,584,Fibrous proteins - Keratin
+NP_000214.1,494,Fibrous proteins - Keratin
+NP_705694.3,458,Fibrous proteins - Keratin
+NP_000517.3,472,Fibrous proteins - Keratin
+NP_002266.3,456,Fibrous proteins - Keratin
+NP_005548.2,473,Fibrous proteins - Keratin
+NP_000413.1,432,Fibrous proteins - Keratin
+NP_000215.1,430,Fibrous proteins - Keratin
+NP_002267.2,400,Fibrous proteins - Keratin
+NP_002268.2,416,Fibrous proteins - Keratin
+NP_002269.3,448,Fibrous proteins - Keratin
+NP_004129.2,404,Fibrous proteins - Keratin
+NP_002270.1,404,Fibrous proteins - Keratin
+NP_001372943.1,394,Fibrous proteins - Keratin
+NP_002271.3,455,Fibrous proteins - Keratin
+NP_002272.2,505,Fibrous proteins - Keratin
+NP_149022.3,513,Fibrous proteins - Keratin
+NP_002273.3,493,Fibrous proteins - Keratin
+NP_149034.2,600,Fibrous proteins - Keratin
+NP_002274.1,507,Fibrous proteins - Keratin
+NP_001307127.1,486,Fibrous proteins - Keratin
+NP_006762.3,456,Fibrous proteins - Keratin
+NP_003761.3,449,Fibrous proteins - Keratin
+NP_003762.1,467,Fibrous proteins - Keratin
+NP_004684.2,551,Fibrous proteins - Keratin
+NP_056330.3,422,Fibrous proteins - Keratin
+NP_056932.2,638,Fibrous proteins - Keratin
+NP_061883.1,424,Fibrous proteins - Keratin
+NP_258259.1,523,Fibrous proteins - Keratin
+NP_778223.2,529,Fibrous proteins - Keratin
+NP_689562.1,295,Fibrous proteins - Keratin
+NP_001376173.1,431,Fibrous proteins - Keratin
+NP_542785.1,511,Fibrous proteins - Keratin
+NP_872313.2,452,Fibrous proteins - Keratin
+NP_853512.1,450,Fibrous proteins - Keratin
+NP_853513.2,464,Fibrous proteins - Keratin
+NP_061889.2,525,Fibrous proteins - Keratin
+NP_775487.2,520,Fibrous proteins - Keratin
+NP_775109.2,564,Fibrous proteins - Keratin
+NP_778238.1,540,Fibrous proteins - Keratin
+NP_787028.1,535,Fibrous proteins - Keratin
+NP_853515.2,459,Fibrous proteins - Keratin
+NP_853517.2,468,Fibrous proteins - Keratin
+NP_778253.2,578,Fibrous proteins - Keratin
+NP_998821.3,491,Fibrous proteins - Keratin
+NP_000079.2,1464,Fibrous proteins - Collagen
+NP_000080.2,1366,Fibrous proteins - Collagen
+NP_001835.3,1487,Fibrous proteins - Collagen
+NP_000081.2,1466,Fibrous proteins - Collagen
+NP_001836.3,1669,Fibrous proteins - Collagen
+NP_001837.2,1712,Fibrous proteins - Collagen
+NP_000082.2,1670,Fibrous proteins - Collagen
+NP_000083.3,1690,Fibrous proteins - Collagen
+NP_203699.1,1691,Fibrous proteins - Collagen
+NP_378667.1,1690,Fibrous proteins - Collagen
+NP_000084.3,1838,Fibrous proteins - Collagen
+NP_000384.2,1499,Fibrous proteins - Collagen
+NP_001839.2,1028,Fibrous proteins - Collagen
+NP_001840.3,1019,Fibrous proteins - Collagen
+NP_478054.2,918,Fibrous proteins - Collagen
+NP_004360.2,3177,Fibrous proteins - Collagen
+NP_000085.1,2944,Fibrous proteins - Collagen
+NP_065084.2,744,Fibrous proteins - Collagen
+NP_005193.1,703,Fibrous proteins - Collagen
+NP_001842.3,921,Fibrous proteins - Collagen
+NP_001843.1,689,Fibrous proteins - Collagen
+NP_001844.3,684,Fibrous proteins - Collagen
+NP_000484.2,680,Fibrous proteins - Collagen
+NP_001845.3,1806,Fibrous proteins - Collagen
+NP_542411.2,1736,Fibrous proteins - Collagen
+NP_004361.3,3063,Fibrous proteins - Collagen
+NP_001355811.1,728,Fibrous proteins - Collagen
+NP_001846.3,1388,Fibrous proteins - Collagen
+NP_001847.3,1604,Fibrous proteins - Collagen
+NP_000485.3,1497,Fibrous proteins - Collagen
+NP_001849.2,1142,Fibrous proteins - Collagen
+NP_066933.1,1796,Fibrous proteins - Collagen
+NP_005668.2,455,Fibrous proteins - Collagen
+NP_006429.2,277,Fibrous proteins - Collagen
+NP_055916.1,626,Fibrous proteins - Collagen
+NP_056534.2,1745,Fibrous proteins - Collagen
+NP_065933.2,1284,Fibrous proteins - Collagen
+NP_076932.1,271,Fibrous proteins - Collagen
+NP_078932.2,622,Fibrous proteins - Collagen
+NP_001366429.1,1339,Fibrous proteins - Collagen
+NP_569057.2,742,Fibrous proteins - Collagen
+NP_110447.2,957,Fibrous proteins - Collagen
+NP_942014.1,654,Fibrous proteins - Collagen
+NP_116277.2,1860,Fibrous proteins - Collagen
+NP_775736.2,540,Fibrous proteins - Collagen
+NP_001096078.1,2263,Fibrous proteins - Collagen
+NP_001265492.1,441,Fibrous proteins - Collagen
+NP_690848.1,1626,Fibrous proteins - Collagen
+NP_690850.2,1714,Fibrous proteins - Collagen
+NP_001265227.1,2614,Fibrous proteins - Collagen
+NP_001032852.2,1125,Fibrous proteins - Collagen
+NP_000492.2,724,Fibrous proteins - Elastin and PSSM not calculated - less than 4 clusters
+NP_005132.2,491,Fibrous proteins - Fibrin
+NP_006477.3,703,Fibrous proteins - Fibrin
+NP_068656.2,453,Fibrous proteins - Fibrin
+NP_006673.1,439,Fibrous proteins - Fibrin
+NP_004458.3,312,Fibrous proteins - Fibrin
+NP_068657.1,644,Fibrous proteins - Fibrin
+NP_733821.1,664,Fibrous proteins - Lamin
+NP_005563.1,572,Fibrous proteins - Lamin
+NP_005564.1,586,Fibrous proteins - Lamin
+NP_116126.3,620,Fibrous proteins - Lamin
+NP_001139200.1,409,Fibrous proteins - Lamin
+NP_775844.2,634,Fibrous proteins - Lamin
+NP_003371.2,466,Fibrous proteins - Vimentin
+NP_001017921.1,169,Fibrous proteins - Vimentin
+NP_002046.1,432,Fibrous proteins - Glial fibrillary acidic protein (GFAP)
+NP_116116.1,499,Fibrous proteins - Internexin
+NP_110413.3,482,Fibrous proteins - Syncoilin
+NP_663780.2,1565,Fibrous proteins - Synemin
+NP_003562.1,415,Fibrous proteins - Phakinin
+NP_001186.1,665,Fibrous proteins - Filensin
+NP_006608.1,1621,Fibrous proteins - Nestin
+NP_005373.2,916,Fibrous proteins - Neurofilament
+NP_006149.2,543,Fibrous proteins - Neurofilament
+NP_066554.2,1020,Fibrous proteins - Neurofilament
+NP_006253.2,470,Fibrous proteins - Peripherin
+NP_000313.2,346,Fibrous proteins - Peripherin
+NP_001918.3,470,Fibrous proteins - Desmin
+NP_001382333.1,100,"PSSM not calculated - 0,1,2,3 hits"
+NP_002752.1,51,"PSSM not calculated - 0,1,2,3 hits"
+NP_001401668.1,52,"PSSM not calculated - 0,1,2,3 hits"
+NP_001401658.1,59,"PSSM not calculated - 0,1,2,3 hits"
+NP_001316887.1,132,PSSM not calculated - less than 4 clusters
+NP_663696.1,615,PSSM not calculated - less than 4 clusters
+NP_001367.2,4646,PSSM not calculated - less than 4 clusters
+NP_001382334.1,105,PSSM not calculated - less than 4 clusters
+NP_060030.1,659,PSSM not calculated - less than 4 clusters
+NP_001382341.1,150,PSSM not calculated - less than 4 clusters
+NP_057175.1,564,PSSM not calculated - less than 4 clusters
+NP_001382860.1,928,PSSM not calculated - less than 4 clusters
+NP_001381687.1,832,PSSM not calculated - less than 4 clusters
+NP_005436.1,1217,PSSM not calculated - less than 4 clusters
+NP_777611.1,332,PSSM not calculated - less than 4 clusters
+NP_001382560.1,2988,PSSM not calculated - less than 4 clusters
+NP_001381736.1,1967,PSSM not calculated - less than 4 clusters
+NP_443155.1,1325,PSSM not calculated - less than 4 clusters
+NP_001382344.1,70,PSSM not calculated - less than 4 clusters
+NP_114170.1,105,PSSM not calculated - less than 4 clusters
+NP_001352302.2,826,PSSM not calculated - less than 4 clusters
+NP_002902.2,1118,PSSM not calculated - less than 4 clusters
+NP_001362453.1,3873,PSSM not calculated - less than 4 clusters
+NP_004821.2,1368,PSSM not calculated - less than 4 clusters
+NP_001376232.1,654,PSSM not calculated - less than 4 clusters
+NP_001383009.1,109,PSSM not calculated - less than 4 clusters
+NP_001093241.1,1075,PSSM not calculated - less than 4 clusters
+NP_001350484.1,127,PSSM not calculated - less than 4 clusters
+NP_031376.3,401,PSSM not calculated - less than 4 clusters
+NP_001177396.1,1346,PSSM not calculated - less than 4 clusters
+NP_001013758.1,1035,PSSM not calculated - less than 4 clusters
+NP_005568.2,2040,PSSM not calculated - less than 4 clusters
+NP_001400755.1,310,PSSM not calculated - less than 4 clusters
+NP_001372008.1,1055,PSSM not calculated - less than 4 clusters
+NP_006828.2,334,PSSM not calculated - less than 4 clusters
+NP_001401824.1,86,PSSM not calculated - less than 4 clusters
+NP_001316990.1,124,PSSM not calculated - less than 4 clusters
+NP_619647.1,643,PSSM not calculated - less than 4 clusters
+NP_001382337.1,96,PSSM not calculated - less than 4 clusters
+NP_036558.3,1217,PSSM not calculated - less than 4 clusters
+NP_001265070.1,1457,PSSM not calculated - less than 4 clusters
+NP_001032408.1,101,PSSM not calculated - less than 4 clusters
+NP_001383885.1,854,PSSM not calculated - less than 4 clusters
+NP_003369.2,615,PSSM not calculated - less than 4 clusters
+NP_001138818.1,1067,PSSM not calculated - less than 4 clusters
+NP_067648.1,135,PSSM not calculated - less than 4 clusters
+NP_001382925.1,2061,PSSM not calculated - less than 4 clusters
+NP_001189368.1,454,PSSM not calculated - less than 4 clusters
+NP_001382331.1,88,PSSM not calculated - less than 4 clusters
+NP_067048.4,248,PSSM not calculated - less than 4 clusters
+NP_001269204.1,90,PSSM not calculated - less than 4 clusters
+NP_061933.1,99,PSSM not calculated - less than 4 clusters
+NP_001375413.1,723,PSSM not calculated - less than 4 clusters
+NP_036565.2,1304,PSSM not calculated - less than 4 clusters
+NP_001382332.1,120,PSSM not calculated - less than 4 clusters
+NP_942138.2,256,PSSM not calculated - less than 4 clusters
+NP_001007533.1,128,PSSM not calculated - less than 4 clusters
+NP_001382338.1,108,PSSM not calculated - less than 4 clusters
+NP_001077007.1,1075,PSSM not calculated - less than 4 clusters
+NP_001335058.1,68,PSSM not calculated - less than 4 clusters
+NP_001382788.1,1138,PSSM not calculated - less than 4 clusters
+NP_853633.1,71,PSSM not calculated - less than 4 clusters
+NP_001374773.1,2898,PSSM not calculated - less than 4 clusters
+NP_009044.2,1943,PSSM not calculated - less than 4 clusters
+NP_001013657.3,194,PSSM not calculated - less than 4 clusters
+NP_001177408.1,380,PSSM not calculated - less than 4 clusters
+NP_001291317.1,909,PSSM not calculated - less than 4 clusters
+NP_060676.2,796,PSSM not calculated - less than 4 clusters
+NP_003832.3,259,PSSM not calculated - less than 4 clusters
+NP_001004325.1,177,PSSM not calculated - less than 4 clusters
+NP_001401831.1,67,PSSM not calculated - less than 4 clusters
+NP_000928.1,1970,PSSM not calculated - less than 4 clusters
+NP_872390.2,194,PSSM not calculated - less than 4 clusters
+NP_115767.1,57,PSSM not calculated - less than 4 clusters
+NP_054787.2,152,PSSM not calculated - less than 4 clusters
+NP_001401864.1,62,PSSM not calculated - less than 4 clusters
+NP_064450.3,1722,PSSM not calculated - less than 4 clusters
+NP_001041677.1,247,PSSM not calculated - less than 4 clusters
+NP_001801.1,599,PSSM not calculated - less than 4 clusters
+NP_001230651.1,124,PSSM not calculated - less than 4 clusters
+NP_853635.1,62,PSSM not calculated - less than 4 clusters
+NP_001269435.1,709,PSSM not calculated - less than 4 clusters
+NP_055872.4,4678,PSSM not calculated - less than 4 clusters
+NP_001229619.1,563,PSSM not calculated - less than 4 clusters
+NP_001157907.1,58,PSSM not calculated - less than 4 clusters
+NP_001382336.1,105,PSSM not calculated - less than 4 clusters
+NP_001401876.1,129,PSSM not calculated - less than 4 clusters
+NP_036522.3,134,PSSM not calculated - less than 4 clusters
+NP_004308.2,348,PSSM not calculated - less than 4 clusters
+NP_001192188.1,124,PSSM not calculated - less than 4 clusters
+NP_001263987.1,1061,PSSM not calculated - less than 4 clusters
+NP_703149.1,406,PSSM not calculated - less than 4 clusters
+NP_001914.3,1140,PSSM not calculated - less than 4 clusters
+NP_001354536.1,1525,PSSM not calculated - less than 4 clusters
+NP_001264012.1,1038,PSSM not calculated - less than 4 clusters
+NP_004667.2,147,PSSM not calculated - less than 4 clusters
+NP_001375414.1,1460,PSSM not calculated - less than 4 clusters
+NP_001342203.1,334,PSSM not calculated - less than 4 clusters
+NP_001316995.1,124,PSSM not calculated - less than 4 clusters
+NP_076971.1,337,PSSM not calculated - less than 4 clusters
+NP_001002760.1,106,PSSM not calculated - less than 4 clusters
+NP_004949.1,2549,PSSM not calculated - less than 4 clusters
+NP_003461.2,1102,PSSM not calculated - less than 4 clusters
+NP_071395.2,124,PSSM not calculated - less than 4 clusters
+NP_853646.1,56,PSSM not calculated - less than 4 clusters
+NP_006436.3,2335,PSSM not calculated - less than 4 clusters
+NP_001002761.1,106,PSSM not calculated - less than 4 clusters
+NP_443129.3,1003,PSSM not calculated - less than 4 clusters
+NP_002256.2,876,PSSM not calculated - less than 4 clusters
+NP_001340274.1,1966,PSSM not calculated - less than 4 clusters
+NP_005830.2,904,PSSM not calculated - less than 4 clusters
+NP_758958.3,153,PSSM not calculated - less than 4 clusters
+NP_001380320.1,331,PSSM not calculated - less than 4 clusters
+NP_003918.1,411,PSSM not calculated - less than 4 clusters
+NP_001093157.1,124,PSSM not calculated - less than 4 clusters
+NP_001345367.1,1052,PSSM not calculated - less than 4 clusters
+NP_001375296.1,1111,PSSM not calculated - less than 4 clusters
+NP_057368.3,2376,PSSM not calculated - less than 4 clusters
+NP_001129981.1,348,PSSM not calculated - less than 4 clusters
+NP_001035957.1,2839,PSSM not calculated - less than 4 clusters
+NP_001317493.1,1669,PSSM not calculated - less than 4 clusters
+NP_057417.3,2752,PSSM not calculated - less than 4 clusters
+NP_001401821.1,68,PSSM not calculated - less than 4 clusters
+NP_055463.1,1208,PSSM not calculated - less than 4 clusters
+NP_001371261.1,63,PSSM not calculated - less than 4 clusters
+NP_001032590.2,942,PSSM not calculated - less than 4 clusters
+NP_002687.1,172,PSSM not calculated - less than 4 clusters
+NP_853636.3,110,PSSM not calculated - less than 4 clusters
+NP_005951.1,3323,PSSM not calculated - less than 4 clusters
+NP_001007190.1,53,PSSM not calculated - less than 4 clusters
+NP_001010859.1,251,PSSM not calculated - less than 4 clusters
+NP_001382888.1,182,PSSM not calculated - less than 4 clusters
+NP_001264335.1,1075,PSSM not calculated - less than 4 clusters
+NP_001381686.1,366,PSSM not calculated - less than 4 clusters
+NP_067051.2,1312,PSSM not calculated - less than 4 clusters
+NP_056986.2,2799,PSSM not calculated - less than 4 clusters
+NP_000418.2,312,PSSM not calculated - less than 4 clusters
+NP_001289300.1,3795,PSSM not calculated - less than 4 clusters
+NP_001371909.1,1222,PSSM not calculated - less than 4 clusters
+NP_660347.1,177,PSSM not calculated - less than 4 clusters
+NP_001002758.1,147,PSSM not calculated - less than 4 clusters
+NP_443099.1,1738,PSSM not calculated - less than 4 clusters
+NP_006430.1,359,PSSM not calculated - less than 4 clusters
+NP_001030025.1,1152,PSSM not calculated - less than 4 clusters
+NP_055023.2,1301,PSSM not calculated - less than 4 clusters
+NP_001383447.1,153,PSSM not calculated - less than 4 clusters
+NP_066289.3,685,PSSM not calculated - less than 4 clusters
+NP_001338294.1,3843,PSSM not calculated - less than 4 clusters
+NP_001291213.1,1406,PSSM not calculated - less than 4 clusters
+NP_001297066.2,1161,PSSM not calculated - less than 4 clusters
+NP_001020762.1,96,PSSM not calculated - less than 4 clusters
+NP_003080.2,437,PSSM not calculated - less than 4 clusters
+NP_006506.3,684,PSSM not calculated - less than 4 clusters
+NP_001009931.1,2850,PSSM not calculated - less than 4 clusters
+NP_057296.1,124,PSSM not calculated - less than 4 clusters
+NP_056197.3,2610,PSSM not calculated - less than 4 clusters
+NP_853639.1,52,PSSM not calculated - less than 4 clusters
+NP_009175.2,134,PSSM not calculated - less than 4 clusters
+NP_002753.2,102,PSSM not calculated - less than 4 clusters
+NP_001382335.1,85,PSSM not calculated - less than 4 clusters
+NP_001382778.1,1133,PSSM not calculated - less than 4 clusters
+NP_004072.3,744,PSSM not calculated - less than 4 clusters
+NP_001004351.3,549,PSSM not calculated - less than 4 clusters
+NP_001380911.1,2119,PSSM not calculated - less than 4 clusters
+NP_061856.1,217,PSSM not calculated - less than 4 clusters
+NP_057322.3,565,PSSM not calculated - less than 4 clusters
+NP_031375.3,1069,PSSM not calculated - less than 4 clusters
+NP_001161142.1,152,PSSM not calculated - less than 4 clusters
+NP_001005922.1,278,PSSM not calculated - less than 4 clusters
+NP_004669.2,106,PSSM not calculated - less than 4 clusters
+NP_001341516.1,1915,PSSM not calculated - less than 4 clusters
+NP_001401894.1,42,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001403332.1,12,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401665.1,23,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401822.1,45,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401826.1,39,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401660.1,25,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401633.1,25,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401871.1,20,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401654.1,29,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401667.1,32,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401656.1,21,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401651.1,29,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401340.1,50,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401827.1,16,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001401631.1,27,"PSSM not calculated - 0,1,2,3 hits (From Remaining 140 ids)"
+NP_001392459.1,1704,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001030344.1,25,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001291660.1,46,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001123298.1,127,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001384355.1,33,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001401920.1,34,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001401830.1,32,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001401930.1,45,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_853651.1,48,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001401988.1,44,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001401626.1,25,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001392595.1,1704,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001157906.1,45,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001381061.1,34,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001371526.1,28,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001337906.1,44,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_001121549.1,44,PSSM not calculated - less than 4 clusters (From Remaining 140 ids)
+NP_000572.2,202,Number of 'U's: 1 (Total 25 IDs)
+NP_000783.2,248,Number of 'U's: 1 (Total 25 IDs)
+NP_001087240.1,648,Number of 'U's: 1 (Total 25 IDs)
+NP_001353.4,303,Number of 'U's: 1 (Total 25 IDs)
+NP_002074.2,189,Number of 'U's: 1 (Total 25 IDs)
+NP_002075.2,225,Number of 'U's: 1 (Total 25 IDs)
+NP_002076.2,196,Number of 'U's: 1 (Total 25 IDs)
+NP_003000.1,86,Number of 'U's: 1 (Total 25 IDs)
+NP_004252.2,164,Number of 'U's: 1 (Total 25 IDs)
+NP_005401.3,371,Number of 'U's: 10 (Total 25 IDs)
+NP_006431.2,523,Number of 'U's: 1 (Total 25 IDs)
+NP_036380.2,447,Number of 'U's: 1 (Total 25 IDs)
+NP_054644.1,271,Number of 'U's: 2 (Total 25 IDs)
+NP_057359.2,194,Number of 'U's: 1 (Total 25 IDs)
+NP_057416.1,115,Number of 'U's: 1 (Total 25 IDs)
+NP_060915.2,188,Number of 'U's: 1 (Total 25 IDs)
+NP_065184.2,588,Number of 'U's: 2 (Total 25 IDs)
+NP_067060.2,93,Number of 'U's: 1 (Total 25 IDs)
+NP_113642.1,668,Number of 'U's: 1 (Total 25 IDs)
+NP_277040.1,396,Number of 'U's: 1 (Total 25 IDs)
+NP_443115.1,642,Number of 'U's: 1 (Total 25 IDs)
+NP_536355.1,144,Number of 'U's: 1 (Total 25 IDs)
+NP_734467.1,121,Number of 'U's: 1 (Total 25 IDs)
+NP_874360.1,220,Number of 'U's: 1 (Total 25 IDs)
+NP_874363.1,345,Number of 'U's: 1 (Total 25 IDs)

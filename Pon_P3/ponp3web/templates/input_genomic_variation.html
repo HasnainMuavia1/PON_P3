@@ -1,0 +1,108 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block title %} Transcript Prediction {% endblock %}
+{% block content %}
+    <div class="page-header">
+        <h1>Genomic Variations Prediction</h1>
+    </div>
+
+    <div class="form row">
+        <form enctype="multipart/form-data" action="" method="post">
+            {% csrf_token %}
+            <div class="form-group col-md-12">
+                <div class="fix-vertical-center">
+                    <div class="col-md-6" style="padding: 0">
+                        <label for="transcript_seq">Input Genomic Variations</label>
+                        <a id="example_input" href="javascript:set_example_transcript_seq()">Example</a>
+                        <textarea class="form-control" rows="10" name="te" id="transcript_seq"></textarea>
+                    </div>
+                    <div class="col-md-1">
+                        <strong>OR</strong>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label for="input_id">Upload CSV or Excel file</label>
+                            <a href="{% static 'example/genomics_example_file.csv' %}" download>Example File</a>
+                            <input type="file" class="form-control" name="csv_data" id="input_id">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-md-12">
+                <label for="mail" class="right-align">E-mail</label>
+                <input type="email" name="e" class="form-control" id="mail" placeholder="Email" required>
+            </div>
+            <div class="col-md-12">
+                <input class="btn btn-danger text-capitalize btn-block" type="submit" value="Start Prediction">
+            </div>
+
+            <div class="col-lg-12" style="margin-top: 10px !important;">
+                <div class="alert alert-warning" role="alert">
+                    <div id="error-message" style="color: red;">{{ msg }}</div>
+                </div>
+                <p>Number of times it is used : {{ counter }}</p>
+            </div>
+        </form>
+    </div>
+
+   <script type="text/javascript">
+    function set_example_transcript_seq() {
+        var seq_input = document.getElementById("transcript_seq");
+        seq_input.value = "chr1:g.75732724T>C\nchr22:g.40364361G>A\nchrY:g.1288840C>T";
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form');
+        const textarea = document.getElementById('transcript_seq');
+        const fileInput = document.getElementById('input_id');
+        const errorMessage = document.getElementById('error-message');
+
+        // Function to clear the error message
+        function clearError() {
+            errorMessage.textContent = '';
+        }
+
+        // Add event listener for form submission
+        form.addEventListener('submit', function(event) {
+            const inputText = textarea.value.trim();
+            const fileSelected = fileInput.files.length > 0;
+
+            // Check if exactly one input field is filled
+            if ((inputText && fileSelected) || (!inputText && !fileSelected)) {
+                errorMessage.textContent = 'Please provide input in either the text area or by selecting a file, but not both.';
+                event.preventDefault(); // Prevent form submission
+                return;
+            }
+
+            // If text area is filled, validate its content
+            if (inputText) {
+                // Updated regex pattern to match the "chr" format
+                const transcriptPattern = /^chr(?:[1-9]|1[0-9]|2[0-2]|X|Y|M):g\.\d+[A-Z]>[A-Z]$/;
+                const blocks = inputText.split('\n');  // Split input by lines
+
+                let isValid = true;
+                blocks.forEach(block => {
+                    if (!transcriptPattern.test(block.trim())) {
+                        isValid = false;
+                    }
+                });
+
+                if (!isValid) {
+                    errorMessage.textContent = 'Input format is incorrect. Ensure each line follows the format: chr1:g.75732724T>C';
+                    event.preventDefault(); // Prevent form submission
+                } else {
+                    clearError(); // Clear error message if validation passes
+                }
+            }
+        });
+
+        // Clear error message when focusing on the textarea or file input
+        textarea.addEventListener('focus', clearError);
+        fileInput.addEventListener('change', clearError); // Use 'change' event for file input
+    });
+</script>
+
+
+
+{% endblock %}
